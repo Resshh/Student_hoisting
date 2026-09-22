@@ -26,7 +26,7 @@ const Home = ({ setIsLoggedIn }) => {
 
     try {
       const response = await axiosInstance.post(
-        "/api/login",
+        "/user/login",
         login
       );
 
