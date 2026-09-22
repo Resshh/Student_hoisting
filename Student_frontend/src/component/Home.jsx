@@ -31,7 +31,7 @@ const Home = ({ setIsLoggedIn }) => {
       );
 
       // Store token
-      localStorage.setItem("token", response.data.token);
+      localStorage.setItem("logintoken", response.data.token);
 
       // Optional: keep this if your app uses it
       localStorage.setItem("isLoggedIn", "true");
