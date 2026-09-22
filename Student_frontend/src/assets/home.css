@@ -1,0 +1,115 @@
+.home-page{
+    display:flex;
+    min-height:90vh;
+    background:#E3C5BB;
+}
+
+.left-side{
+    width:55%;
+    padding:60px;
+}
+
+.left-side h1{
+    font-size:52px;
+    color:#122932;
+}
+
+.left-side span{
+    color:#750D37;
+}
+
+.description{
+    margin:25px 0;
+    color:#555;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.feature{
+    margin-top:25px;
+}
+
+.feature h3{
+    color:#750D37;
+}
+
+.feature p{
+    margin-top:5px;
+    color:#555;
+}
+
+.student-image{
+    width:70%;
+    margin:30px auto;
+    display:block;
+}
+
+.quote{
+    margin-top:30px;
+    background:#750D37;
+    color:white;
+    padding:20px;
+    border-radius:10px;
+    line-height:1.8;
+}
+
+.right-side{
+    width:45%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.right-side form{
+    width:420px;
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+.right-side h2{
+    text-align:center;
+    color:#750D37;
+    margin-bottom:30px;
+}
+
+.right-side input{
+    width:100%;
+    padding:14px;
+    margin-bottom:20px;
+    border:2px solid #6B818C;
+    border-radius:8px;
+    font-size:16px;
+}
+
+.right-side input:focus{
+    outline:none;
+    border-color:#750D37;
+}
+
+.right-side button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:8px;
+    background:#750D37;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.right-side button:hover{
+    background:#52050A;
+}
+
+.register-text{
+    margin-top:20px;
+    text-align:center;
+}
+
+.register-text span{
+    color:#750D37;
+    font-weight:bold;
+    cursor:pointer;
+}
