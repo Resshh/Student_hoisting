@@ -21,7 +21,7 @@ function verifyToken(req, res, next) {
 }
 
 
-router.post("/register", verifyToken, async (req, res) => {
+router.post("/register", async (req, res) => {
   try {
     const { rollNo, candidateName, course, email, marks, password } = req.body;
 
@@ -61,7 +61,7 @@ router.post("/register", verifyToken, async (req, res) => {
 
 
 
-router.post("/login", verifyToken, async (req, res) => {
+router.post("/login",async (req, res) => {
   try {
     const { email, password } = req.body;
 
